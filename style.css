@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   color: #050a0e;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 p {
@@ -19,10 +21,9 @@ p {
   padding-bottom: 0.5rem;
 }
 h1 {
-  color: #fcee09;
+  color: #050a0e;
   font-size: 2.5rem;
   font-weight: 900;
-  -webkit-text-stroke: 0.1rem #050a0e;
   /* top | right | bottom | left */
   text-align: center;
 }
