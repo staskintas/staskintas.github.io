@@ -1,14 +1,16 @@
 body {
-  font-family: Arial, Helvetica, Roboto, sans-serif;
-  background-color: #fafafa;
+  font-family: Lato, Arial, Helvetica, Roboto, sans-serif;
+  /* background-color: #fafafa;*/
+  background-color: #050505;
   margin: 0;
   padding: 0;
-  color: #050a0e;
+  color: #f9f9f9;
   max-width: 100%;
   overflow-x: hidden;
 }
 
 p {
+  font-size: medium;
   line-height: 0;
   padding-left: 1rem;
 }
@@ -16,22 +18,27 @@ p {
 .info {
   font-size: small;
   font-style: italic;
-  color: grey;
+  color: #dddddd;
   line-height: 0;
   padding-bottom: 0.5rem;
 }
+
 h1 {
-  color: #050a0e;
-  font-size: 2.5rem;
+  /* color: #050a0e; */
+  font-size: 1.66rem;
   font-weight: 900;
   /* top | right | bottom | left */
-  text-align: center;
+  text-align: left;
+  padding-left: 1rem;
 }
-h3 {
+
+h2 {
+  font-size: 1.33rem;
   padding-left: 1rem;
   font-weight: 900;
 }
-.yellow-back {
+
+/*.header {
   position: relative;
   height: 15%;
   width: 150vw;
@@ -41,11 +48,12 @@ h3 {
   margin: -15vh -25% 10vh -25%;
   border-bottom: solid 0.5rem #00f0ff;
   border-top: solid 10rem #ff003c;
-}
+} */
 
 a {
-  color: #ff003c;
+  color: #55aaff;
 }
+
 a:visited {
-  color: #270a4a;
+  color: #ffaa55;
 }
