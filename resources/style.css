@@ -1,3 +1,4 @@
+/* top | right | bottom | left */
 body {
   font-family: Lato, Arial, Helvetica, Roboto, sans-serif;
   /* background-color: #fafafa;*/
@@ -10,33 +11,34 @@ body {
 }
 
 p {
+  margin: 0;
   font-size: medium;
-  line-height: 0;
-  padding-left: 1rem;
+  line-height: 1rem;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
 }
 
 .info {
+  margin: 0;
   font-size: small;
   font-style: italic;
   color: #dddddd;
-  line-height: 0;
-  padding-top: 0.1rem;
-  padding-bottom: 0.5rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.5rem 0.5rem;
 }
 
 h1 {
-  /* color: #050a0e; */
+  margin: 0;
   font-size: 1.66rem;
   font-weight: 900;
-  /* top | right | bottom | left */
   text-align: left;
-  padding-left: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 h2 {
+  margin: 0;
   font-size: 1.33rem;
-  padding-left: 1rem;
   font-weight: 900;
+  padding: 0 0.5rem 0 0.5rem;
 }
 
 /*.header {
