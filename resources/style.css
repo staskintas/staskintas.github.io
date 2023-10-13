@@ -20,6 +20,7 @@ p {
   font-style: italic;
   color: #dddddd;
   line-height: 0;
+  padding-top: 0.1rem;
   padding-bottom: 0.5rem;
 }
 
@@ -51,9 +52,9 @@ h2 {
 } */
 
 a {
-  color: #55aaff;
+  color: #66bbff;
 }
 
 a:visited {
-  color: #ffaa55;
+  color: #ffbb66;
 }
