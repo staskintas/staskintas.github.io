@@ -1,6 +1,6 @@
 /* top | right | bottom | left */
 body {
-  font-family: Lato, Arial, Helvetica, Roboto, sans-serif;
+  font-family: Arial, Helvetica, Roboto, sans-serif;
   /* background-color: #fafafa;*/
   background-color: #050505;
   margin: 0;
@@ -31,7 +31,7 @@ h1 {
   font-size: 1.66rem;
   font-weight: 900;
   text-align: left;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
 h2 {
@@ -39,6 +39,14 @@ h2 {
   font-size: 1.33rem;
   font-weight: 900;
   padding: 0 0.5rem 0 0.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  color: #bfbfbf;
 }
 
 /*.header {
